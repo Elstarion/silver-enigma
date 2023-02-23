@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "TT Hoves";
+  src: url(./assets/TT\ Hoves\ Medium.otf) format(otf);
+}
+.font-Hoves {
+  font-family: "TT Hoves";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.containerr {
+  max-width: 1903px;
+  margin: auto;
+}
+.containerr .tasty-pastries {
+  display: flex;
+  height: 840px;
+}
+.containerr .tasty-pastries .left {
+  position: relative;
+  width: 63.79%;
+  background: radial-gradient(50% 50% at 86.58% 50%, #F2A850 0%, rgba(228, 166, 92, 0) 87.64%), #C98A40;
+}
+.containerr .tasty-pastries .left .peachy {
+  width: 249px;
+  height: 68px;
+  padding-left: 69px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  background: url(./assets/bread.png) no-repeat left;
+  margin: 26px 0 0 29.38%;
+  color: #FFFFFF;
+}
+.containerr .tasty-pastries .left .tasty-lorem {
+  margin: 194px 0 0 28.995%;
+}
+.containerr .tasty-pastries .left .tasty-lorem h3 {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 3.854vw;
+  line-height: 89px;
+  color: #FFFFFF;
+}
+.containerr .tasty-pastries .left .tasty-lorem p {
+  width: 61.3%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.containerr .tasty-pastries .left .social-links {
+  position: absolute;
+  bottom: 0;
+  width: 36.91%;
+  height: 201px;
+  background: center/100% 100% url(./assets/mask1.png) no-repeat;
+  background-color: #FFFFFF;
+}
+.containerr .tasty-pastries .left .social-links ul {
+  margin-top: 30px;
+  margin-right: 37px;
+  list-style: none;
+}
+.containerr .tasty-pastries .left .social-links ul li {
+  height: 24px;
+  text-align: right;
+  margin-bottom: 16px;
+}
+.containerr .tasty-pastries .left .telephone {
+  position: absolute;
+  bottom: 0;
+  left: 38.5%;
+  padding-bottom: 20px;
+}
+.containerr .tasty-pastries .left .telephone p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.containerr .tasty-pastries .left .telephone p span {
+  padding-left: 14px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+.containerr .tasty-pastries .left .bulkki {
+  position: absolute;
+  top: 319px;
+  left: 72.8%;
+  width: 54.87%;
+}
+.containerr .tasty-pastries .left .bulkki .hleb {
+  width: 100%;
+}
+.containerr .tasty-pastries .left .bulkki .quality {
+  width: 28.228%;
+  position: absolute;
+  bottom: -13.1%;
+  left: 35%;
+}
+.containerr .tasty-pastries .left .bulkki .ipsun, .containerr .tasty-pastries .left .bulkki .neipsun {
+  width: 70%;
+  position: absolute;
+  right: 2.27%;
+  top: -16%;
+}
+.containerr .tasty-pastries .left .bulkki .neipsun {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.containerr .tasty-pastries::after {
+  content: "";
+  width: 36.21%;
+  background: right/100% 100% url(./assets/mask.png) no-repeat;
+}
+.containerr .flex-how {
+  background: left/36.21% 100% url(./assets/mask6.png) no-repeat, linear-gradient(to left, #C98A40 63.79%, rgba(0, 0, 0, 0) 0%);
+  text-align: center;
+}
+.containerr .flex-how .lorem-how {
+  display: flex;
+}
+.containerr .flex-how .lorem-how p {
+  width: 14.56%;
+  margin: 170px 30px 50px 20%;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #C98A40;
+}
+.containerr .flex-how .lorem-how h2 {
+  width: 33.53%;
+  text-align: right;
+  color: #FFFFFF;
+  margin: 50px 0 0 12.4%;
+}
+.containerr .flex-how .fotki-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.containerr .about-us {
+  display: flex;
+  background-image: linear-gradient(to right, #C98A40 63.79%, #FFFFFF 63.79%, #FFFFFF 100%);
+}
+.containerr .about-us .about {
+  margin: 50px 50px 50px 18.49%;
+  width: 26.69%;
+}
+.containerr .about-us .about h2 {
+  margin-bottom: 50px;
+  color: #FFFFFF;
+}
+.containerr .about-us .about p {
+  margin-bottom: 42px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.containerr .about-us img {
+  margin: 50px 0;
+  height: 100%;
+}
+.containerr .services {
+  width: 100%;
+  text-align: center;
+}
+.containerr .services h2 {
+  text-align: center;
+  margin: 58px 0 50px 0;
+  color: #C98A40;
+}
+.containerr .services .service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  justify-content: center;
+  text-align: left;
+}
+.containerr .services .service-cards .card-item {
+  width: 385px;
+  border: 1px solid #FFD8AB;
+  border-radius: 30px;
+}
+.containerr .services .service-cards .card-item .card-title {
+  margin: 30px 30px 10px 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #C98A40;
+}
+.containerr .services .service-cards .card-item div {
+  width: 325px;
+  margin: 0 30px 30px 30px;
+}
+.containerr .services .service-cards .card-item .card-text {
+  padding-right: 6px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+.containerr .testimonials {
+  width: 100%;
+  background: url(./assets/maskt.png) no-repeat, #C98A40;
+  text-align: center;
+}
+.containerr .testimonials h2 {
+  padding-top: 86px;
+  margin-bottom: 80px;
+  color: #FFFFFF;
+}
+.containerr .testimonials .reviews {
+  display: grid;
+  grid-template-columns: 512px 512px;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px;
+  justify-content: center;
+}
+.containerr .testimonials .reviews .review-item {
+  height: 192px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  text-align: left;
+}
+.containerr .testimonials .reviews .review-item .reviewer {
+  margin: 20px 0 10px 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #C98A40;
+}
+.containerr .testimonials .reviews .review-item .re-text {
+  width: 412px;
+  margin: 0 auto 20px auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+.containerr .testimonials .reviews .review-item img {
+  margin: 0 0 20px 50px;
+}
+.containerr .contact {
+  width: 100%;
+}
+.containerr .contact h2 {
+  padding-top: 50px;
+  text-align: center;
+  color: #C98A40;
+}
+.containerr .contact .form {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.containerr .contact .form form {
+  margin: 0 100px 0 0;
+  text-align: center;
+}
+.containerr .contact .form form input {
+  padding: 20px 30px;
+  margin-bottom: 14px;
+  background: #FFD39F;
+  border-radius: 61px;
+  border: none;
+  width: 374px;
+  height: 56px;
+}
+.containerr .contact .form form button {
+  border: 3px solid #C98A40;
+  border-radius: 61px;
+  width: 168px;
+  height: 56px;
+  background: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  color: #C98A40;
+  transition: 1s;
+}
+.containerr .contact .form form button:hover {
+  color: #FFFFFF;
+  background: #C98A40;
+}
+.containerr .contact .form div .info {
+  margin-top: 30px;
+}
+.containerr .contact .form div .contacts {
+  height: 20px;
+  padding-left: 44px;
+}
+.containerr .contact .form div .icon-mail {
+  background: url(./assets/mail.png) no-repeat left;
+}
+.containerr .contact .form div .icon-phone {
+  background: url(./assets/call.png) no-repeat left;
+}
+.containerr .contact .form div .icon-address {
+  background: url(./assets/location.png) no-repeat left;
+}
+.containerr .footer {
+  width: 100%;
+  height: 117px;
+  background: #584125;
+}
+
+.titles-144 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 7.5vw;
+  line-height: 96%;
+}
+
+.buutton-see, .buutton-contact {
+  background: #FDBA10;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 1.125rem 3.313rem;
+  text-align: center;
+  color: #FFFFFF;
+  transition: 1s;
+}
+.buutton-see:hover, .buutton-contact:hover {
+  color: #FDBA10;
+  background: #FFFFFF;
+}
+
+.buutton-contact {
+  padding: 1.125rem 2.375rem;
+}
+
+.button-50 {
+  margin: 50px auto;
+}
+
+@media screen and (max-width: 1670px) {
+  .containerr .tasty-pastries .left .tasty-lorem {
+    margin: 150px 0 0 20.995%;
+  }
+  .containerr .about-us .about {
+    margin-left: 9%;
+  }
+  .containerr .flex-how .lorem-how p {
+    width: 30%;
+    margin: 100px 30px 50px 10%;
+  }
+  .containerr .flex-how .lorem-how h2 {
+    width: 70%;
+    margin: 100px 13% 50px 0%;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .containerr .tasty-pastries .left .tasty-lorem {
+    margin: 150px 0 0 14.995%;
+  }
+  .containerr .tasty-pastries .left .bulkki {
+    transform: scale(1.5);
+  }
+  .containerr .flex-how .lorem-how h2 {
+    font-size: 100px;
+  }
+  .containerr .testimonials {
+    background: url(./assets/maskt.png) #C98A40;
+  }
+  .containerr .testimonials .reviews {
+    grid-template-columns: 512px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .containerr .about-us img {
+    width: 55%;
+  }
+  .containerr .about-us .about p {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=styles.css.map */
